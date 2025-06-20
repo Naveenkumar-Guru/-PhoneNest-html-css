@@ -1,0 +1,85 @@
+/* Centered heading section */
+.about-head-content {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.about-head-content h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.about-head-content p {
+  font-size: 18px;
+  color: #444;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+/* Container for the cards */
+.about-sub-container {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  padding: 30px 20px;
+  background-color: #f9f9f9;
+  flex-wrap: nowrap;
+}
+
+/* Style for each card */
+.about-sub-card,
+.sub-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 25px 20px;
+  width: 220px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.about-sub-card i,
+.sub-card i {
+  font-size: 36px;
+  color: #005eff;
+  margin-bottom: 15px;
+}
+
+.about-sub-card h1,
+.sub-card h1 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.about-sub-card p,
+.sub-card p {
+  font-size: 14px;
+  color: #333;
+}
+
+.about-story-container {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about-story-container h1 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.story-card {
+  margin: 0 auto;
+  padding: 30px;
+  text-align: left;
+  font-size: 16px;
+  color: #333;
+  background-color: ghostwhite;
+  border-radius: 12px;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  line-height: 1.6;
+}
