@@ -1,62 +1,89 @@
-
 body {
   margin: 0;
-  height: 100vh;
-  width: 100vw;
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
+  background-color: #f0f0f0;
 }
 
 .navbar-container {
-  background-color: white;
-  width: 100vw;
-  height: auto;
-  font-size: 14px;
-  font-style: roboto;
+  width: 100%;
+  background-color: black;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
 }
 
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 25px;
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
   display: flex;
-  justify-content: flex-end;
-}
-
-.input-search {
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
-}
-
-.input {
-  width: 170px;
-  height: 30px;
-  margin: 10px;
   align-items: center;
-  font-size: larger;
-  border: 2px solid #dedada;
-  border-radius: 35px;
-  outline: none;
-  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
 }
 
-.navbar li {
-  margin: 0 15px;
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
 }
 
-.navbar a {
-  display: block;
-  font-style: roboto;
-  color: rgb(27, 27, 97);
-  font-weight: 700;
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li a {
   text-decoration: none;
-  padding: 15px 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
 }
 
-.navbar a:hover {
-  background-color: #807c7c;
-  border-radius: 4px;
+.nav-links li a:hover {
+  background-color: white;
+  color: black;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+.logo img {
+  height: 50px;
+  width: 100px;
+}
+
+/* .icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+.cart-icon {
+  position: relative;
+}
+
+.cart-icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.cart-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #b32d2d;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 50%;
+} */
+
+.user-icon {
+  width: 30px;
+  height: 30px;
 }
 
 .sub-container {

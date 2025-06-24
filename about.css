@@ -1,4 +1,4 @@
-/* Centered heading section */
+
 .about-head-content {
   text-align: center;
   padding: 40px 20px;
@@ -18,7 +18,7 @@
   line-height: 1.6;
 }
 
-/* Container for the cards */
+
 .about-sub-container {
   display: flex;
   justify-content: center;
@@ -28,7 +28,7 @@
   flex-wrap: nowrap;
 }
 
-/* Style for each card */
+
 .about-sub-card,
 .sub-card {
   background-color: #fff;
